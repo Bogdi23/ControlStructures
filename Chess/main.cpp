@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using std::cin;
 using std::cout;
 using std::endl;
@@ -27,7 +27,7 @@ void main()
 
 #ifdef ChessBoard
 	int n;
-	cout << "Ââåäèòå ðàçìåð äîñêè: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸: "; cin >> n;
 	n++;
 	setlocale(LC_ALL, "C");
 	for (int i = 0; i <= n; i++)
@@ -49,7 +49,7 @@ void main()
 
 #ifdef HardChess
 	int size;
-	cout << "Ââåäèòå ðàçìåð äîñêè: "; cin >> size;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð´Ð¾ÑÐºÐ¸: "; cin >> size;
 
 	for (int row = 0; row < size; row++) {
 		for (int i = 0; i < size; i++) {
